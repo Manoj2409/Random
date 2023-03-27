@@ -1,0 +1,107 @@
+{"networks":[{"description":"Carrier ABC","productTypes":[{"description":"Airtime","id":1,"products":[{"minAmount":"67.00","id":"001"},{"minAmount":"6.00","id":"002"}]},{"description":"Data","id":2,"products":[{"minAmount":"7.00","id":"001-2"},{"minAmount":"5.90","id":"002-2"}]}],"id":1},{"description":"Carrier 123","productTypes":[{"description":"Airtime","id":1,"products":[{"minAmount":"267.00","id":"001-3"},{"minAmount":"61.00","id":"002-3"}]},{"description":"Data","id":2,"products":[{"minAmount":"17.00","id":"001-5"},{"minAmount":"52.90","id":"002-5"}]}],"id":2}]}
+
+
+1 : 
+Total Items : 2
+
+{"description":"Carrier ABC","productTypes":[{"description":"Airtime","id":1,"products":[{"minAmount":"67.00","id":"001"},{"minAmount":"6.00","id":"002"}]},{"description":"Data","id":2,"products":[{"minAmount":"7.00","id":"001-2"},{"minAmount":"5.90","id":"002-2"}]}],"id":1}
+
+{"description":"Carrier 123","productTypes":[{"description":"Airtime","id":1,"products":[{"minAmount":"267.00","id":"001-3"},{"minAmount":"61.00","id":"002-3"}]},{"description":"Data","id":2,"products":[{"minAmount":"17.00","id":"001-5"},{"minAmount":"52.90","id":"002-5"}]}],"id":2}
+
+2 : 
+Total Items : 14
+
+1
+
+1
+
+001
+
+002
+
+2
+
+001-2
+
+002-2
+
+2
+
+1
+
+001-3
+
+002-3
+
+2
+
+001-5
+
+002-5
+
+3 : 
+Total Items : 6
+
+Carrier ABC
+
+Airtime
+
+Data
+
+Carrier 123
+
+Airtime
+
+Data
+
+4 : 
+Total Items : 4
+
+{"description":"Airtime","id":1,"products":[{"minAmount":"67.00","id":"001"},{"minAmount":"6.00","id":"002"}]}
+
+{"description":"Data","id":2,"products":[{"minAmount":"7.00","id":"001-2"},{"minAmount":"5.90","id":"002-2"}]}
+
+{"description":"Airtime","id":1,"products":[{"minAmount":"267.00","id":"001-3"},{"minAmount":"61.00","id":"002-3"}]}
+
+{"description":"Data","id":2,"products":[{"minAmount":"17.00","id":"001-5"},{"minAmount":"52.90","id":"002-5"}]}
+
+5 : 
+Total Items : 8
+
+{"minAmount":"67.00","id":"001"}
+
+{"minAmount":"6.00","id":"002"}
+
+{"minAmount":"7.00","id":"001-2"}
+
+{"minAmount":"5.90","id":"002-2"}
+
+{"minAmount":"267.00","id":"001-3"}
+
+{"minAmount":"61.00","id":"002-3"}
+
+{"minAmount":"17.00","id":"001-5"}
+
+{"minAmount":"52.90","id":"002-5"}
+
+6 : 
+Total Items : 1
+
+Data
+
+7 : 
+Total Items : 1
+
+Airtime
+
+8 : 
+Total Items : 1
+
+2
+
+9 : 
+Total Items : 1
+
+52.90
+
+Process finished with exit code 0
