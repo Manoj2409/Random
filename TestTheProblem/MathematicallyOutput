@@ -1,0 +1,70 @@
+{"networks":[{"description":"Carrier ABC","productTypes":[{"description":"Airtime","id":1,"products":[{"minAmount":"67.00","id":"001"},{"minAmount":"6.00","id":"002"}]},{"description":"Data","id":2,"products":[{"minAmount":"7.00","id":"001-2"},{"minAmount":"5.90","id":"002-2"}]}],"id":1},{"description":"Carrier 123","productTypes":[{"description":"Airtime","id":1,"products":[{"minAmount":"267.00","id":"001-3"},{"minAmount":"61.00","id":"002-3"}]},{"description":"Data","id":2,"products":[{"minAmount":"17.00","id":"001-5"},{"minAmount":"52.90","id":"002-5"}]}],"id":2}]}
+
+myPathReasonable : /networks[1]/productTypes[1]/products[1]/minAmount/
+Altered path : /networks[1]/productTypes[1]/products[1]/minAmount
+myPathReasonable : /networks[1]/productTypes[1]/products[2]/minAmount/
+Altered path : /networks[1]/productTypes[1]/products[2]/minAmount
+myPathReasonable : /networks[1]/productTypes[2]/products[1]/minAmount/
+Altered path : /networks[1]/productTypes[2]/products[1]/minAmount
+myPathReasonable : /networks[1]/productTypes[2]/products[2]/minAmount/
+Altered path : /networks[1]/productTypes[2]/products[2]/minAmount
+myPathReasonable : /networks[2]/productTypes[1]/products[1]/minAmount/
+Altered path : /networks[2]/productTypes[1]/products[1]/minAmount
+myPathReasonable : /networks[2]/productTypes[1]/products[2]/minAmount/
+Altered path : /networks[2]/productTypes[1]/products[2]/minAmount
+myPathReasonable : /networks[2]/productTypes[2]/products[1]/minAmount/
+Altered path : /networks[2]/productTypes[2]/products[1]/minAmount
+myPathReasonable : /networks[2]/productTypes[2]/products[2]/minAmount/
+Altered path : /networks[2]/productTypes[2]/products[2]/minAmount
+
+67.00
+
+6.00
+
+7.00
+
+5.90
+
+267.00
+
+61.00
+
+17.00
+
+52.90
+n : /.[@name='networks'][1][@name='productTypes'][1][@name='products'][1][@name='minAmount']
+n : /.[@name='networks'][1][@name='productTypes'][1][@name='products'][2][@name='minAmount']
+n : /.[@name='networks'][1][@name='productTypes'][2][@name='products'][1][@name='minAmount']
+n : /.[@name='networks'][1][@name='productTypes'][2][@name='products'][2][@name='minAmount']
+n : /.[@name='networks'][2][@name='productTypes'][1][@name='products'][1][@name='minAmount']
+n : /.[@name='networks'][2][@name='productTypes'][1][@name='products'][2][@name='minAmount']
+n : /.[@name='networks'][2][@name='productTypes'][2][@name='products'][1][@name='minAmount']
+n : /.[@name='networks'][2][@name='productTypes'][2][@name='products'][2][@name='minAmount']
+pr : /networks[1]/productTypes[1]/products[1]/minAmount
+pr : /networks[1]/productTypes[1]/products[2]/minAmount
+pr : /networks[1]/productTypes[2]/products[1]/minAmount
+pr : /networks[1]/productTypes[2]/products[2]/minAmount
+pr : /networks[2]/productTypes[1]/products[1]/minAmount
+pr : /networks[2]/productTypes[1]/products[2]/minAmount
+pr : /networks[2]/productTypes[2]/products[1]/minAmount
+pr : /networks[2]/productTypes[2]/products[2]/minAmount
+nr : /.[@name='networks'][1][@name='productTypes'][1][@name='products'][1][@name='minAmount']
+nr : /.[@name='networks'][1][@name='productTypes'][1][@name='products'][2][@name='minAmount']
+nr : /.[@name='networks'][1][@name='productTypes'][2][@name='products'][1][@name='minAmount']
+nr : /.[@name='networks'][1][@name='productTypes'][2][@name='products'][2][@name='minAmount']
+nr : /.[@name='networks'][2][@name='productTypes'][1][@name='products'][1][@name='minAmount']
+nr : /.[@name='networks'][2][@name='productTypes'][1][@name='products'][2][@name='minAmount']
+nr : /.[@name='networks'][2][@name='productTypes'][2][@name='products'][1][@name='minAmount']
+nr : /.[@name='networks'][2][@name='productTypes'][2][@name='products'][2][@name='minAmount']
+true
+true
+true
+true
+true
+true
+true
+true
+True count : 8
+False count : 0
+
+Process finished with exit code 0
